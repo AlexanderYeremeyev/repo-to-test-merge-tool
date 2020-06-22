@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="076a3730-b8df-4f52-8108-0fd1ddfe5f31" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1 remote name" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="076a3730-b8df-4f52-8108-0fd1ddfe5f31fileName">TestCase-1-remote-name</con:setting>
+  </con:settings>
+  <con:testStep type="groovy" name="Groovy Script remote name" id="7cf3e8e2-4b61-480b-9950-88f408422f64">
+    <con:settings/>
+    <con:config>
+      <script>log.info("hello remote commit.");</script>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
